@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div name="container">
+        <div name="row">
+            <div name="col-lg-12">
+                <div id="triviaGameTitle">
+                    <h1>Trivia Game!</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div name="container">
+        <div name="row">
+            <div name="col-lg-12">
+                <h2 id="scoreCount">Score: </h2>
+            </div>
+        </div>
+        <div name="row">
+            <div name="col-lg-12">
+                <h2 id="timeRemaining"></h2>
+                <script type="text/javascript">countDown(30, "timeRemaining");</script>
+            </div>
+        </div>
+        <div name="row">
+            <div name="col-lg-12">
+                <div id="questionList">
+                    <h3 id="questionOneHead">Which of these companies was founded by Elon Musk?</h3>
+                    <form class="q1Choices" action="/action_page.php">
+                        <input type="radio" id="answer1" class="options" name="q1Choices" value="1"> 1. SolarCity<br>
+                        <input type="radio" class="options" name="q1Choices" value="2"> 2. Yelp<br>
+                        <input type="radio" class="options" name="q1Choices" value="3"> 3. Oracle<br>
+                        <input type="radio" class="options" name="q1Choices" value="4"> 4. Blue Origin<br>
+                        <br>
+                    </form>
+                    <br>
+                    <h3 id="questionTwoHead">What is the population of Zimbabwe?</h3>
+                    <form class="q2Choices" action="/action_page.php">
+                        <input type="radio" class="options" name="q2Choices" value="1"> 1. 50.65 Million People<br>
+                        <input type="radio" class="options" name="q2Choices" value="2"> 2. 14.84 Million People<br>
+                        <input type="radio" id="answer2" class="options" name="q2Choices" value="3"> 3. 16.15 Million People<br>
+                        <input type="radio" class="options" name="q2Choices" value="4"> 4. 80.38 Million People<br>
+                        <br>
+                    </form>
+                    <br>
+                    <h3 id="questionThreeHead">In charting technical analysis, what does resistance mean?</h3>
+                    <form class="q3Choices" action="/action_page.php">
+                        <input type="radio" class="options" name="q3Choices" value="1"> 1. A pattern of price bounces from
+                        a specific level below, unable to break through.<br>
+                        <input type="radio" id="answer3" class="options" name="q3Choices" value="2"> 2. A pattern of price
+                        bounces from a specific level above, unable to break through.<br>
+                        <input type="radio" class="options" name="q3Choices" value="3"> 3. The highest value that an asset
+                        can possibly reach.<br>
+                        <input type="radio" class="options" name="q3Choices" value="4"> 4. The amount of liquidity in the
+                        given asset.<br>
+                    </form>
+                    <br>
+                    <h3 id="questionFourHead">Which of these animals are endangered?</h3>
+                    <form class="q4Choices" class="options" action="/action_page.php">
+                        <input type="radio" id="answer4" name="q4Choices" value="1"> 1. Whale Shark<br>
+                        <input type="radio" name="q4Choices" value="2"> 2. Komodo Dragon<br>
+                        <input type="radio" name="q4Choices" value="3"> 3. Hippopotamus<br>
+                        <input type="radio" name="q4Choices" value="4"> 4. Dugong<br>
+                        <br>
+                        <input type="submit">
+                    </form>
+                </div>
+</body>
+
+</html>

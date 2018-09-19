@@ -1,0 +1,50 @@
+#triviaGameTitle {
+text-align:center;
+margin-bottom:30px;
+background:darkgrey;
+}
+
+#timeRemaining {
+text-align:center;
+background:darkcyan;
+}
+
+#questionOneHead {
+    text-align:center;
+    background: skyblue;
+}
+
+#questionTwoHead {
+    text-align:center;
+    background: skyblue;
+}
+
+#questionThreeHead {
+    text-align:center;
+    background: skyblue;
+}
+
+#questionFourHead {
+    text-align:center;
+    background: skyblue;
+}
+
+.q1Choices {
+    text-align:center;
+    background: orange;
+}
+
+.q2Choices {
+    text-align:center;
+    background: orange;
+}
+
+.q3Choices {
+    text-align:center;
+    background: orange;
+}
+
+.q4Choices {
+    text-align:center;
+    background: orange;
+}
